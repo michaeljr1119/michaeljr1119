@@ -17,7 +17,7 @@ int main()
         player = (player % 2) ? 1 : 2;
 
         printf("Player %d, enter a number:  ", player);
-        scanf("%d", &choice);
+        scanf_s("%d", &choice);
 
         mark = (player == 1) ? 'X' : 'O';
 
